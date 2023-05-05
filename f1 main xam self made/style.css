@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter' ,sans-serif;
+}
+body{
+    background-color: black;
+    border: 5px solid rgb(212, 147, 147);
+}
+.navbar{
+    color: antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    border: 2px white solid;
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin: 5px;
+    /* margin-left: 0px; */
+}
+.iems{
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 6px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 1px;
+}
+#items{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.rightStreet{
+    background-color: antiquewhite;
+    width: 35%;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+}
+.leftStreet{
+    width: 65%;
+}
+.theimage{
+    background-color: grey;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 10px;
+    
+}
+.upright{
+    background-color: grey;
+    height: 25vh;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 15px;
+    padding: 10px;
+}
+.downleft{
+    background-color: brown;
+    overflow: hidden;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 10px;
+
+
+}
+.phot{
+    width: 300px;
+}
+.downright{
+     overflow: hidden;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(150, 129, 129);
+    height: 52vh;
+
+}
+.material{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+}
+.below{
+    display: flex;
+    height: 50%;
+}
+.downleft{
+    height: 52vh;
+}
+.fistImage{
+    width: 25rem;
+    border-radius: 15px;
+    padding: 10px;
+    
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+}
+.snip{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 3px;
+    
+}
+.firstImage{
+  overflow: hidden;
+}
+.last{
+    padding: 15px;
+}
+.twoimg{
+    overflow: hidden;
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    /* padding-left: 30px; */
+    cursor: pointer;
+}
+.img2{
+    border-radius: 50%;
+    height: 100px;
+    /* margin-left: 250px; */
+    cursor: pointer;
+}
+.fistImage:hover{
+    transform: scale(0.9);
+    z-index:2 ;
+    cursor: pointer;
+}
+.twoimg:hover{
+    transform: scale(0.9);
+    z-index:2 ;
+    cursor: pointer;
+}
+.phot:hover{
+    transform: scale(0.9);
+    z-index:2 ;
+    cursor: pointer;
+}
+.img2:hover{
+    transform: scale(0.9);
+    z-index:2;
+    cursor: pointer;
+}
+.hline{
+    height: 1px;
+    background-color: black;
+    
+}
+@media(max-width:850px){
+    html{
+        font-size: 55%;
+        
+    }
+}
+.iems:hover{
+    background-color: rgb(167, 107, 223);
+    cursor: pointer;
+
+
+}
+.arraow:hover{
+    transform: scale(2.0);
+}
+
+
+@media (max-width:700px) {
+    body{
+            font-size: 50%;
+            flex-direction: column;
+            width: 100%;
+            height: 100vh;
+    }
+    .below{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+    }
+    .leftStreet{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+    }
+    .material{
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+
+    }
+    .rightStreet{
+        flex-direction: row;
+        width: 100%;
+        height: 100vh;
+        
+    }
+    .navbar{
+        font-size: 50%;
+        width: 100%;
+         height: 10vh 
+    }
+}
